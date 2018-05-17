@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	
+	<session-factory>
+		<property name="driver_class" type="url">com.mysql.jdbc.Driver</property>
+		<property name="url">jdbc:mysql://localhost:3306/personalblog</property>
+		<!-- 
+			将会附加在url后面 
+			例如sql中的一些其他参数配置
+			useUnicode=true&amp;characterEncoding=gbk
+			注意：‘&’要用转移符‘&amp;’
+		 -->
+		<property name="add_url">useUnicode=true&amp;characterEncoding=UTF-8</property>
+		<property name="pool_size">6</property>
+		<property name="username">root</property>
+		<property name="password">123456</property>
+		<mapping resource="com/jdbc4/test/mapping/FileType.xml"></mapping>
+	</session-factory>
+</configuration>

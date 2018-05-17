@@ -1,0 +1,8 @@
+类的层次图 - 设计模式模板方法设计模式  2017年12月11日
+AnalyXML
+	-AnalyXMLV 规范子类突破父类
+		-AnalyXMLOfAttr	专注于解析属性，并为映射文件解析
+			-AnalyMapperConf
+			
+		-AnalyXMLOfText	专注于解析标签文本值，并为主映射文件解析
+			-AnalyCoreConf

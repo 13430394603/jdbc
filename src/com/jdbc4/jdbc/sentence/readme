@@ -1,0 +1,10 @@
+类的层次图 - 利用了桥接模式和模板模式
+	
+Sentence(SentenceImpl impl) 主操作对象 
+
+SentenceImpl(String tableName, Object param, Condition condition) 父类中定义了模板方法bom即生成sql语句的条件字符串
+	-InsertImpl 生成插入语句的具体实现
+	-SelectImpl	生成查询语句的具体实现
+	-DeleteImpl 生成删除语句的具体实现
+	-UpdateImpl 生成修改语句的具体实现
+	-升级添加具体实现

@@ -1,0 +1,13 @@
+jdbc4
+	通过反射实现一系列面向对象的操作，其基本的操作类似各类访问数据库的框架
+	清除properties配置文件
+	
+	增加
+		ConfigurePool	对象，获取主要配置文件
+		
+	修改
+		JdbcPool 		修改为pubilc构造方法  -- JdbcPool低层池可以多建
+		JdbcExecute 	去除其他不必要的接口方法 -- 整洁
+		
+	
+	

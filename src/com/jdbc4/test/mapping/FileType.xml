@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+	<class name="com.jdbc4.test.mapping.FileType" table="managefiletype">
+		<id name="id" column="id" type="integer" />
+		<property name="type" column="type" type="string" />
+	</class>
+</mapping>

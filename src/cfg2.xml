@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<session-factory>
+		<property name="driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+		<property name="url">jdbc:derby:derbydata;create=true</property>
+		<property name="pool_size">6</property>
+		<property name="username">root</property>
+		<property name="password">123456</property>
+		<mapping resource="com/chen/mapping/FileType.xml"></mapping>
+	</session-factory>
+</configuration>
