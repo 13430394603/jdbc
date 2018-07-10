@@ -64,6 +64,6 @@ public class SqlInsert {
 				ValuesStr.toString().trim()) ;
 		mapping = null ; //用完释放
 		//执行
-		ExecuteFactory.doExe(sql) ;
+		ExecuteFactory.doExe(null, sql) ;
 	}
 }

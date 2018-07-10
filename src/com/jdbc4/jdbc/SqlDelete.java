@@ -70,7 +70,7 @@ public class SqlDelete {
 		//获取完整的SQL语句
 		String sql = StatementFactory.getInstance().getDeleteStatement(mapping.getTableName(), cdt) ;
 		//执行
-		ExecuteFactory.doExe(sql) ;
+		ExecuteFactory.doExe(null, sql) ;
 		//用完释放
 		mapping = null ; 
 	}
