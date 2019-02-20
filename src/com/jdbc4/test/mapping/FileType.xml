@@ -3,5 +3,13 @@
 	<class name="com.jdbc4.test.mapping.FileType" table="managefiletype">
 		<id name="id" column="id" type="integer" />
 		<property name="type" column="type" type="string" />
+		<!--
+		<one-to-one name="" class="">
+		<many-to-one name="" class="" >
+		<set name="" >
+			<key name="">
+			<one-to-many class="">
+		</set>
+		-->
 	</class>
 </mapping>
